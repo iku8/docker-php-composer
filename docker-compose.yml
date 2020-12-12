@@ -5,4 +5,4 @@ services:
     image: composer
     command: "composer install"
     volumes:
-      - ./:/app
+      - ${PATH_TO_COMPOSER_JSON:-./}:/app
