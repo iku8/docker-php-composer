@@ -19,6 +19,6 @@ docker-compose run composer composer install
 install laravel 8.0
 
 ```
-docker-compose run composer ccomposer create-project --prefer-dist laravel/laravel=8.0 myApp
+docker-compose run composer composer create-project --prefer-dist laravel/laravel=8.0 myApp
 ```
 
